@@ -7,3 +7,74 @@
 body {
     font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
 }
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #255ee9;
+    padding-top: 25px;
+    text-align: center;
+
+}
+
+.container {
+    width: 90%;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+.float_r {
+    float: right;
+}
+
+
+.discordlogo {
+    width: 12%;
+    margin-right: 8%;
+}
+
+header nav ul {
+    display: inline-block;
+    list-style: none;
+    width: 60%;
+    padding: 2px;
+    margin-left:  auto;
+    margin-right: auto;
+
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    font-size: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    /* padding: 0 1vw; */
+}
+
+.nav_button {
+    width: 20%;
+}
+
+.button_small {
+    font-size: 10px;
+    text-decoration: none;
+    background-color: white;
+    padding: 8px;
+    border-radius: 13px;
+}
