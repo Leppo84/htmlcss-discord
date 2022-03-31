@@ -20,7 +20,7 @@ header {
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin-left:  auto;
     margin-right: auto;
 }
@@ -41,8 +41,8 @@ header {
 
 
 .discordlogo {
-    width: 12%;
-    margin-right: 8%;
+    width: 10%;
+    margin-right: 10%;
 }
 
 header nav ul {
@@ -64,17 +64,73 @@ header nav ul li a {
     display: inline-block;
     text-decoration: none;
     color: white;
-    /* padding: 0 1vw; */
+    padding: 0 1vw;
 }
 
 .nav_button {
-    width: 20%;
+    width: calc(20% - 8px);
+    text-align: right;
+    margin-left: 8px;
 }
 
 .button_small {
+    color: black;
     font-size: 10px;
     text-decoration: none;
     background-color: white;
     padding: 8px;
     border-radius: 13px;
 }
+
+.jumboimg {
+    position: relative;
+}
+
+.jumbotexts {
+    color: white;
+    position: absolute;
+    bottom: 10vw;
+    left: 25%;
+    width: 50%;
+}
+
+div.jumbotexts h1 {
+    margin-bottom: 25px;
+}
+
+div.jumbotexts p {
+    margin-bottom: 25px;ù
+
+}
+
+.button_big {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: white;
+    padding: 12px;
+    border-radius: 19px;
+}
+
+#arrow01 {
+    color: black;
+}
+
+.button_black {
+    color: white;
+    background-color: black;
+}
+
+div.jumbotext a.button_white {
+    margin-right: 25px;
+}
+
+.col_left {
+    width: 45%;
+    margin-right: 10%;
+}
+
+.col_right {
+    width: 45%;
+}
+
